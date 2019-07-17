@@ -10,9 +10,9 @@
 		2215350722DF081F000D037F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215350622DF081F000D037F /* AppDelegate.m */; };
 		2215350922DF0822000D037F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2215350822DF0822000D037F /* Assets.xcassets */; };
 		2215350F22DF0822000D037F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215350E22DF0822000D037F /* main.m */; };
-		2215352622DF0AFE000D037F /* SpaceAge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215352522DF0AFE000D037F /* SpaceAge.m */; };
 		229BFCE422DF1C1400CA10D8 /* SpaceAgeObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BFCE322DF1C1400CA10D8 /* SpaceAgeObjCTests.m */; };
 		22B567AB22DF254A0019E938 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B567AA22DF254A0019E938 /* MainMenu.xib */; };
+		C4D28E3822DF71A90072EFC3 /* SpaceAge.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D28E3722DF71A90072EFC3 /* SpaceAge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +35,10 @@
 		2215351022DF0822000D037F /* SpaceAgeObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpaceAgeObjC.entitlements; sourceTree = "<group>"; };
 		2215351522DF0822000D037F /* SpaceAgeObjC_ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceAgeObjC_ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2215351B22DF0822000D037F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2215352422DF0ADD000D037F /* SpaceAge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpaceAge.h; sourceTree = "<group>"; };
-		2215352522DF0AFE000D037F /* SpaceAge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceAge.m; sourceTree = "<group>"; };
 		229BFCE322DF1C1400CA10D8 /* SpaceAgeObjCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceAgeObjCTests.m; sourceTree = "<group>"; };
 		22B567AA22DF254A0019E938 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		C4D28E3622DF71A90072EFC3 /* SpaceAge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpaceAge.h; sourceTree = "<group>"; };
+		C4D28E3722DF71A90072EFC3 /* SpaceAge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceAge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +82,9 @@
 			children = (
 				2215350522DF081F000D037F /* AppDelegate.h */,
 				2215350622DF081F000D037F /* AppDelegate.m */,
+				C4D28E3622DF71A90072EFC3 /* SpaceAge.h */,
+				C4D28E3722DF71A90072EFC3 /* SpaceAge.m */,
 				2215350E22DF0822000D037F /* main.m */,
-				2215352422DF0ADD000D037F /* SpaceAge.h */,
-				2215352522DF0AFE000D037F /* SpaceAge.m */,
 				22B567AA22DF254A0019E938 /* MainMenu.xib */,
 				2215351022DF0822000D037F /* SpaceAgeObjC.entitlements */,
 				2215350822DF0822000D037F /* Assets.xcassets */,
@@ -202,7 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2215350F22DF0822000D037F /* main.m in Sources */,
-				2215352622DF0AFE000D037F /* SpaceAge.m in Sources */,
+				C4D28E3822DF71A90072EFC3 /* SpaceAge.m in Sources */,
 				2215350722DF081F000D037F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,13 +344,13 @@
 				CODE_SIGN_ENTITLEMENTS = SpaceAgeObjC/SpaceAgeObjC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = 6FK869LYWN;
 				INFOPLIST_FILE = SpaceAgeObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkaunert.SpaceAgeObjC;
+				PRODUCT_BUNDLE_IDENTIFIER = kmacmckee.SpaceAgeObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -362,13 +362,13 @@
 				CODE_SIGN_ENTITLEMENTS = SpaceAgeObjC/SpaceAgeObjC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = 6FK869LYWN;
 				INFOPLIST_FILE = SpaceAgeObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkaunert.SpaceAgeObjC;
+				PRODUCT_BUNDLE_IDENTIFIER = kmacmckee.SpaceAgeObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

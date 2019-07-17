@@ -34,6 +34,7 @@ static const double AgeAccuracy = 0.01;
     SpaceAge *age = [[SpaceAge alloc] initWithSeconds:1000000000];
     XCTAssertEqualWithAccuracy(31.69, age.onEarth, AgeAccuracy);
 }
+
 - (void)testAgeOnMercury {
     SpaceAge *age = [[SpaceAge alloc] initWithSeconds:2134835688];
     XCTAssertEqualWithAccuracy(67.65, age.onEarth, AgeAccuracy);
@@ -75,6 +76,5 @@ static const double AgeAccuracy = 0.01;
     XCTAssertEqualWithAccuracy(260.16, age.onEarth, AgeAccuracy);
     XCTAssertEqualWithAccuracy(1.58, age.onNeptune, AgeAccuracy);
 }
-
 
 @end

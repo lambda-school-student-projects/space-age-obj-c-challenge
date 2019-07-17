@@ -10,9 +10,9 @@
 		2215350722DF081F000D037F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215350622DF081F000D037F /* AppDelegate.m */; };
 		2215350922DF0822000D037F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2215350822DF0822000D037F /* Assets.xcassets */; };
 		2215350F22DF0822000D037F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215350E22DF0822000D037F /* main.m */; };
-		2215352622DF0AFE000D037F /* SpaceAge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215352522DF0AFE000D037F /* SpaceAge.m */; };
 		229BFCE422DF1C1400CA10D8 /* SpaceAgeObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BFCE322DF1C1400CA10D8 /* SpaceAgeObjCTests.m */; };
 		22B567AB22DF254A0019E938 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B567AA22DF254A0019E938 /* MainMenu.xib */; };
+		ECC0110E22DF71C000DAF7BD /* SpaceAge.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC0110D22DF71C000DAF7BD /* SpaceAge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +35,10 @@
 		2215351022DF0822000D037F /* SpaceAgeObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpaceAgeObjC.entitlements; sourceTree = "<group>"; };
 		2215351522DF0822000D037F /* SpaceAgeObjC_ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceAgeObjC_ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2215351B22DF0822000D037F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2215352422DF0ADD000D037F /* SpaceAge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpaceAge.h; sourceTree = "<group>"; };
-		2215352522DF0AFE000D037F /* SpaceAge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceAge.m; sourceTree = "<group>"; };
 		229BFCE322DF1C1400CA10D8 /* SpaceAgeObjCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceAgeObjCTests.m; sourceTree = "<group>"; };
 		22B567AA22DF254A0019E938 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		ECC0110C22DF71C000DAF7BD /* SpaceAge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpaceAge.h; sourceTree = "<group>"; };
+		ECC0110D22DF71C000DAF7BD /* SpaceAge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceAge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 				2215350522DF081F000D037F /* AppDelegate.h */,
 				2215350622DF081F000D037F /* AppDelegate.m */,
 				2215350E22DF0822000D037F /* main.m */,
-				2215352422DF0ADD000D037F /* SpaceAge.h */,
-				2215352522DF0AFE000D037F /* SpaceAge.m */,
+				ECC0110C22DF71C000DAF7BD /* SpaceAge.h */,
+				ECC0110D22DF71C000DAF7BD /* SpaceAge.m */,
 				22B567AA22DF254A0019E938 /* MainMenu.xib */,
 				2215351022DF0822000D037F /* SpaceAgeObjC.entitlements */,
 				2215350822DF0822000D037F /* Assets.xcassets */,
@@ -202,7 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2215350F22DF0822000D037F /* main.m in Sources */,
-				2215352622DF0AFE000D037F /* SpaceAge.m in Sources */,
+				ECC0110E22DF71C000DAF7BD /* SpaceAge.m in Sources */,
 				2215350722DF081F000D037F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

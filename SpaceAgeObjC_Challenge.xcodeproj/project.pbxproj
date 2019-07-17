@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2215350722DF081F000D037F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215350622DF081F000D037F /* AppDelegate.m */; };
+		2215350922DF0822000D037F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2215350822DF0822000D037F /* Assets.xcassets */; };
+		2215350F22DF0822000D037F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215350E22DF0822000D037F /* main.m */; };
+		2215352622DF0AFE000D037F /* SpaceAge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215352522DF0AFE000D037F /* SpaceAge.m */; };
+		229BFCE422DF1C1400CA10D8 /* SpaceAgeObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BFCE322DF1C1400CA10D8 /* SpaceAgeObjCTests.m */; };
+		22B567AB22DF254A0019E938 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B567AA22DF254A0019E938 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2215351622DF0822000D037F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 221534FA22DF081F000D037F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2215350122DF081F000D037F;
+			remoteInfo = SpaceAgeObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2215350222DF081F000D037F /* SpaceAgeObjC_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceAgeObjC_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2215350522DF081F000D037F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2215350622DF081F000D037F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2215350822DF0822000D037F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2215350D22DF0822000D037F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2215350E22DF0822000D037F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2215351022DF0822000D037F /* SpaceAgeObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpaceAgeObjC.entitlements; sourceTree = "<group>"; };
+		2215351522DF0822000D037F /* SpaceAgeObjC_ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceAgeObjC_ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2215351B22DF0822000D037F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2215352422DF0ADD000D037F /* SpaceAge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpaceAge.h; sourceTree = "<group>"; };
+		2215352522DF0AFE000D037F /* SpaceAge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceAge.m; sourceTree = "<group>"; };
+		229BFCE322DF1C1400CA10D8 /* SpaceAgeObjCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceAgeObjCTests.m; sourceTree = "<group>"; };
+		22B567AA22DF254A0019E938 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		221534FF22DF081F000D037F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2215351222DF0822000D037F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221534F922DF081F000D037F = {
+			isa = PBXGroup;
+			children = (
+				2215350422DF081F000D037F /* SpaceAgeObjC */,
+				2215351822DF0822000D037F /* SpaceAgeObjCTests */,
+				2215350322DF081F000D037F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2215350322DF081F000D037F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2215350222DF081F000D037F /* SpaceAgeObjC_Challenge.app */,
+				2215351522DF0822000D037F /* SpaceAgeObjC_ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2215350422DF081F000D037F /* SpaceAgeObjC */ = {
+			isa = PBXGroup;
+			children = (
+				2215350522DF081F000D037F /* AppDelegate.h */,
+				2215350622DF081F000D037F /* AppDelegate.m */,
+				2215350E22DF0822000D037F /* main.m */,
+				2215352422DF0ADD000D037F /* SpaceAge.h */,
+				2215352522DF0AFE000D037F /* SpaceAge.m */,
+				22B567AA22DF254A0019E938 /* MainMenu.xib */,
+				2215351022DF0822000D037F /* SpaceAgeObjC.entitlements */,
+				2215350822DF0822000D037F /* Assets.xcassets */,
+				2215350D22DF0822000D037F /* Info.plist */,
+			);
+			path = SpaceAgeObjC;
+			sourceTree = "<group>";
+		};
+		2215351822DF0822000D037F /* SpaceAgeObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				229BFCE322DF1C1400CA10D8 /* SpaceAgeObjCTests.m */,
+				2215351B22DF0822000D037F /* Info.plist */,
+			);
+			path = SpaceAgeObjCTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2215350122DF081F000D037F /* SpaceAgeObjC_Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2215351E22DF0822000D037F /* Build configuration list for PBXNativeTarget "SpaceAgeObjC_Challenge" */;
+			buildPhases = (
+				221534FE22DF081F000D037F /* Sources */,
+				221534FF22DF081F000D037F /* Frameworks */,
+				2215350022DF081F000D037F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceAgeObjC_Challenge;
+			productName = SpaceAgeObjC;
+			productReference = 2215350222DF081F000D037F /* SpaceAgeObjC_Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2215351422DF0822000D037F /* SpaceAgeObjC_ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2215352122DF0822000D037F /* Build configuration list for PBXNativeTarget "SpaceAgeObjC_ChallengeTests" */;
+			buildPhases = (
+				2215351122DF0822000D037F /* Sources */,
+				2215351222DF0822000D037F /* Frameworks */,
+				2215351322DF0822000D037F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2215351722DF0822000D037F /* PBXTargetDependency */,
+			);
+			name = SpaceAgeObjC_ChallengeTests;
+			productName = SpaceAgeObjCTests;
+			productReference = 2215351522DF0822000D037F /* SpaceAgeObjC_ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		221534FA22DF081F000D037F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "joshua kaunert";
+				TargetAttributes = {
+					2215350122DF081F000D037F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2215351422DF0822000D037F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2215350122DF081F000D037F;
+					};
+				};
+			};
+			buildConfigurationList = 221534FD22DF081F000D037F /* Build configuration list for PBXProject "SpaceAgeObjC_Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 221534F922DF081F000D037F;
+			productRefGroup = 2215350322DF081F000D037F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2215350122DF081F000D037F /* SpaceAgeObjC_Challenge */,
+				2215351422DF0822000D037F /* SpaceAgeObjC_ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2215350022DF081F000D037F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2215350922DF0822000D037F /* Assets.xcassets in Resources */,
+				22B567AB22DF254A0019E938 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2215351322DF0822000D037F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221534FE22DF081F000D037F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2215350F22DF0822000D037F /* main.m in Sources */,
+				2215352622DF0AFE000D037F /* SpaceAge.m in Sources */,
+				2215350722DF081F000D037F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2215351122DF0822000D037F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229BFCE422DF1C1400CA10D8 /* SpaceAgeObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2215351722DF0822000D037F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2215350122DF081F000D037F /* SpaceAgeObjC_Challenge */;
+			targetProxy = 2215351622DF0822000D037F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2215351C22DF0822000D037F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2215351D22DF0822000D037F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2215351F22DF0822000D037F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpaceAgeObjC/SpaceAgeObjC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = SpaceAgeObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkaunert.SpaceAgeObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2215352022DF0822000D037F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpaceAgeObjC/SpaceAgeObjC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = SpaceAgeObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkaunert.SpaceAgeObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2215352222DF0822000D037F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = SpaceAgeObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkaunert.SpaceAgeObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceAgeObjC_Challenge.app/Contents/MacOS/SpaceAgeObjC_Challenge";
+			};
+			name = Debug;
+		};
+		2215352322DF0822000D037F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = SpaceAgeObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkaunert.SpaceAgeObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceAgeObjC_Challenge.app/Contents/MacOS/SpaceAgeObjC_Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		221534FD22DF081F000D037F /* Build configuration list for PBXProject "SpaceAgeObjC_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2215351C22DF0822000D037F /* Debug */,
+				2215351D22DF0822000D037F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2215351E22DF0822000D037F /* Build configuration list for PBXNativeTarget "SpaceAgeObjC_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2215351F22DF0822000D037F /* Debug */,
+				2215352022DF0822000D037F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2215352122DF0822000D037F /* Build configuration list for PBXNativeTarget "SpaceAgeObjC_ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2215352222DF0822000D037F /* Debug */,
+				2215352322DF0822000D037F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 221534FA22DF081F000D037F /* Project object */;
+}

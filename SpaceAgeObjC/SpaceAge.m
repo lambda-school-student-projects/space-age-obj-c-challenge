@@ -11,12 +11,12 @@
 
 @implementation SpaceAge
 
-int secondsInEarthYear 
+double secondsInEarthYear = 365.25 * 24 * 60 * 60;
 
-- (int)ageOnEarth:(int *)age {
+
+- (double)ageOnEarth:(int *)age {
     
-    
-    _onEarth = age /
+    _onEarth = age / secondsInEarthYear
     
     return _onEarth;
 }

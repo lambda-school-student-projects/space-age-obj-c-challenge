@@ -1,4 +1,4 @@
-# space-age-obj-c
+# space-age-obj-challenge
 
 ### Challenge
 Your challenge today is to write an Objective-C program that, given an age in seconds, can calculate how old someone would be on:
